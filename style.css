@@ -1,0 +1,187 @@
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    /* background-color: #fff; */
+    /* background-image: 1.jpg; */
+    border-radius: 5px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 10px rgb(98, 18, 104); */
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+}
+.navigation {
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+    color: rgb(0, 0, 0); /* Set the text color */
+    text-align: center; /* Center-align the text */
+    padding: 10px 0; /* Add padding to the top and bottom */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.navigation h1 {
+    margin: 0; /* Remove any margin from the h1 */
+    font-size: 24px; /* Set the font size */
+}
+
+
+
+
+header {
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+.add-task {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#taskInput {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+#addTaskBtn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 10px 20px;
+    background-color:#c08fc7;
+    color: #000000;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#addTaskBtn:hover {
+    background-color: #8e5296;
+}
+
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    /* list-style-type: none; */
+    padding: 0;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background-color: #ed6dde;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deleteBtn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background-color: #fbf7fb;
+    color: #0b0b0b;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.deleteBtn:hover {
+    background-color: #bc7dc2;
+}
+.editBtn{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background-color: #fbf7fb;
+    color: #0b0b0b;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.editBtn:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    background-color: #bc7dc2;
+}
+/* Same as previous example */
+
+/* Same as previous examples */
+
+/* Same as previous examples */
+
+#dueDate {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 8px;
+    border: 1px solid #bf9ccc;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+/* New styles for search and sort */
+.search-sort {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#searchInput {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #c995cb;
+    border-radius: 3px;
+}
+
+#sortSelect {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 8px;
+    border: 1px solid  #c995cb;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+.actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+
+
+
+
